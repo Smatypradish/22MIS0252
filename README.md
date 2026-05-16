@@ -154,7 +154,7 @@ ROOT/
 2. Commit your code using recommended messages (below).
 3. Add your remote repository:
    ```bash
-   git remote add origin https://github.com/yourusername/affordmed-evaluation.git
+   git remote add origin https://github.com/Smatypradish/affordmed-evaluation.git
    ```
 4. Push to main:
    ```bash
