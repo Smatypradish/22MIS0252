@@ -1,0 +1,89 @@
+{
+  "info": {
+    "name": "Affordmed Notification System",
+    "description": "API collection for the Affordmed Notification System evaluation.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Notifications",
+      "item": [
+        {
+          "name": "1. Get Top 10 Prioritized Notifications",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3002/api/notifications",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3002",
+              "path": ["api", "notifications"]
+            },
+            "description": "Fetches top 10 notifications sorted by priority (placement > result > event) and recency."
+          }
+        },
+        {
+          "name": "2. Get All Notifications",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3002/api/notifications/all",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3002",
+              "path": ["api", "notifications", "all"]
+            },
+            "description": "Fetches all notifications without limits."
+          }
+        },
+        {
+          "name": "3. Get Placements Only",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3002/api/notifications/type/placement",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3002",
+              "path": ["api", "notifications", "type", "placement"]
+            },
+            "description": "Filters notifications to only show placements."
+          }
+        },
+        {
+          "name": "4. Get Results Only",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3002/api/notifications/type/result",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3002",
+              "path": ["api", "notifications", "type", "result"]
+            },
+            "description": "Filters notifications to only show results."
+          }
+        },
+        {
+          "name": "5. Get Events Only",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3002/api/notifications/type/event",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3002",
+              "path": ["api", "notifications", "type", "event"]
+            },
+            "description": "Filters notifications to only show events."
+          }
+        }
+      ]
+    }
+  ]
+}
