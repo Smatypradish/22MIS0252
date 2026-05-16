@@ -102,10 +102,6 @@ ROOT/
 ---
 
 ## 7. Screenshots
-*(Add screenshots here before submission)*
-- `[Screenshot 1: Frontend Dashboard showing Top 10]`
-- `[Screenshot 2: Backend Terminal showing Logging Middleware]`
-- `[Screenshot 3: Filtered tab view]`
 
 ---
 
